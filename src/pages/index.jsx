@@ -1,7 +1,11 @@
 import React from "react"
-
+import Layout from './../components/layout'
 export default function Home() {
-  return <>
-  Hello world
-  </>
+  return(
+
+  <Layout>
+    <h1>home page</h1><br />
+
+  </Layout>
+  )
 }
